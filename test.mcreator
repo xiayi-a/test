@@ -1,41 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "ChunMingShengCheng",
-      "type": "procedure",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chun_ming_sheng_cheng",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/test/procedures/ChunMingShengChengProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "ChunMingWuDi",
       "type": "procedure",
       "sortid": 2,
@@ -43,6 +8,9 @@
       "locked_code": false,
       "registry_name": "chun_ming_wu_di",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ChunMingWuDiProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
